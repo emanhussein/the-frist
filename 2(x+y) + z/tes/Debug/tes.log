@@ -1,0 +1,23 @@
+﻿Build started 20/11/2017 01:55:45 ص.
+     1>Project "F:\progect\2(x+y) + z\tes\tes.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\tes.unsuccessfulbuild".
+       _MASM:
+       Skipping target "_MASM" because all output files are up-to-date with respect to the input files.
+       _MASM:
+       Skipping target "_MASM" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         tes.vcxproj -> F:\progect\2(x+y) + z\Debug\tes.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\tes.unsuccessfulbuild".
+         Touching "Debug\tes.lastbuildstate".
+     1>Done Building Project "F:\progect\2(x+y) + z\tes\tes.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

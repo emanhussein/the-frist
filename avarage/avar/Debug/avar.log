@@ -1,0 +1,33 @@
+﻿Build started 20/11/2017 03:35:46 ص.
+     1>Project "F:\progect\avarage\avar\avar.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\avar.unsuccessfulbuild".
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DELL\AppData\Local\Temp\tmp6868f6fff2d447459ec28097eaf85189.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\io.obj" /W3 /errorReport:prompt  /Ta"C:\Users\DELL\Desktop\Assembly IO Headers\io.asm"
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DELL\AppData\Local\Temp\tmpc510261c4b474fd783500d5b3a854f4e.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\test.obj" /W3 /errorReport:prompt  /Tatest.asm
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "C:\Users\DELL\Desktop\Assembly IO Headers\framework.c"
+         framework.c
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\framework.res" "C:\Users\DELL\Desktop\Assembly IO Headers\framework.rc" 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\progect\avarage\Debug\avar.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\avar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\progect\avarage\Debug\avar.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"MainProc" /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\progect\avarage\Debug\avar.lib" /MACHINE:X86 Debug\framework.res
+         Debug\framework.obj
+         Debug\io.obj
+         Debug\test.obj
+         avar.vcxproj -> F:\progect\avarage\Debug\avar.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\progect\avarage\Debug\avar.exe;#1" /manifest Debug\avar.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\avar.unsuccessfulbuild".
+         Touching "Debug\avar.lastbuildstate".
+     1>Done Building Project "F:\progect\avarage\avar\avar.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.67

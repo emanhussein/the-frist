@@ -1,0 +1,24 @@
+﻿Build started 20/11/2017 03:47:24 ص.
+     1>Project "F:\progect\coins\coin\coin.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\progect\coins\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\coin.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DELL\AppData\Local\Temp\tmpcc3f529f2fb5440fbcfec30b688bd5f4.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\io.obj" /W3 /errorReport:prompt  /Ta"C:\Users\DELL\Desktop\Assembly IO Headers\io.asm"
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DELL\AppData\Local\Temp\tmp83884d329a324233a912082c3d8904b5.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\test.obj" /W3 /errorReport:prompt  /Tatest.asm
+     1>test.asm(36): error A2008: syntax error : ,
+     1>test.asm(40): error A2008: syntax error : ,
+     1>test.asm(44): error A2008: syntax error : ,
+     1>test.asm(48): error A2008: syntax error : ,
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\masm.targets(49,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\test.obj" /W3 /errorReport:prompt  /Tatest.asm" exited with code 1.
+     1>Done Building Project "F:\progect\coins\coin\coin.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.35

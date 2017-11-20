@@ -1,0 +1,15 @@
+﻿Build started 17/11/2017 08:07:14 ص.
+     1>Project "F:\progect\expr\tes\tes.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\tes.unsuccessfulbuild".
+       _MASM:
+         Assembling [Inputs]...
+         cmd.exe /C "C:\Users\DELL\AppData\Local\Temp\tmp9b9dec4aedb34dc8b35f70e877a63699.cmd"
+         ml.exe /c /nologo /Zi /Fo"Debug\io.obj" /W3 /errorReport:prompt  /Ta"D:\Assembly IO Headers\io.asm"
+     1>MASM : fatal error A1000: cannot open file : D:\Assembly IO Headers\io.asm
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\masm.targets(49,5): error MSB3721: The command "ml.exe /c /nologo /Zi /Fo"Debug\io.obj" /W3 /errorReport:prompt  /Ta"D:\Assembly IO Headers\io.asm"" exited with code 1.
+     1>Done Building Project "F:\progect\expr\tes\tes.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.29
